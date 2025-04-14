@@ -1,13 +1,2 @@
-#include <iostream>
-using namespace std;
-
-int main() {
-	cin.tie(0)->sync_with_stdio(false);
-
-	int n;
-
-	cin >> n;
-
-	if (n % 2 == 0) cout << "CY";
-	else cout << "SK";
-}
+#include<iostream>
+int main(){int n;std::cin>>n;std::cout<<(n%2?"SK":"CY");}
